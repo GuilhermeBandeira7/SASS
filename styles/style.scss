@@ -1,0 +1,9 @@
+// underline _ before the file name means that the file is a partial 
+// Importing styles from another file
+@import './abstract/base';
+@import './components/navbar';
+@import './components/banner';
+@import './components/servicos';
+@import './components/cupom';
+@import './components/_footer';
+@import './components/curiosidades'

@@ -1,0 +1,27 @@
+// importing variables to be used in the ancor html element
+@import '../abstract/variaveis';
+
+nav {
+  text-align: center;
+
+  ul {
+    li {
+      display: inline-block;
+      padding: 1rem;
+
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        color: $cor-primaria;
+
+        // & selector is a way to use pseudo-class
+        &:hover {
+          border-bottom: 2px solid $cor-secundaria;
+        }
+
+
+      }
+    }
+  }
+}
